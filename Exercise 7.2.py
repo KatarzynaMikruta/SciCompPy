@@ -18,6 +18,7 @@ for x in range(10):
     print(next(n))
 
 print('-----')
+
 def C(iteratorC=itertools.cycle([0, 1, 0, -1])):
     return next(iteratorC)
 
